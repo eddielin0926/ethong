@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ethong"
+version = "0.1.0"
+description = "A multilingual speech recognition and translation project focusing on mixed Mandarin and Taiwanese Hokkien."
+authors = ["Eddie Lin <eddielin0926@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
